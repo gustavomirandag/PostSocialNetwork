@@ -27,6 +27,7 @@ namespace PostSocialNetwork.WebApp.Controllers
             return View(await _context.Posts.ToListAsync());
         }
 
+
         // GET: Posts/Details/5
         public async Task<IActionResult> Details(Guid? id)
         {
